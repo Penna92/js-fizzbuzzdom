@@ -18,10 +18,10 @@ for (let i = 1; i <= 100; i++) {
     console.log("Buzz");
   } else if (i % 3 === 0 && i % 5 === 0) {
     const li = document.createElement("li");
-    li.append("BuzzFizz");
+    li.append("FizzBuzz");
     ul.append(li);
     li.style.background = "#F0466F";
-    console.log("BuzzFizz");
+    console.log("FizzBuzz");
   } else if (i % 3 !== 0 && i % 5 !== 0) {
     const li = document.createElement("li");
     li.append(i);
